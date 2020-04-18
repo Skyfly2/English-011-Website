@@ -3,7 +3,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Lato|Muli&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="../css/altstyles.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
   <title>Asher Hamrick</title>
 </head>
 
-<body class="body">
+<body class="body" style="background-color: black;">
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,28 +20,34 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="costs.html">Benefits</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="issues.html">Issues</a>
+        </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/costs.html">Benefits</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/issues.html">Issues</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="pages/alternatives.html">Alternatives</a>
+          <a class="nav-link" href="alternatives.html">Alternatives</a>
         </li>
       </ul>
     </div>
   </nav>
-
-  <div class="col-sm-12">
-    <div class="box greet" style="margin-left: 34%; margin-right: 34%;">
-      <h1 style="color: white; text-align: center; font-size: 500%;">Welcome to the bay.</h1>
-    </div>
-    <h1 class="greetresp" style="color: white; text-align: center; font-size: 500%;">Welcome to the bay.</h1>
+  <div class="city" style="background-image: url(../images/austinback.jpg);">
+    <h1 class="city" style="text-align: center; color: white; padding-top: 13%;">Austin, TX</h1>
   </div>
+  <div class="box" style="height: 3rem;"></div>
+  <div class="city" style="background-image: url(../images/bostonback.jpg);">
+    <h1 class="city" style="text-align: center; color: white; padding-top: 13%;">Boston, MA</h1>
+  </div>
+  <div class="box" style="height: 3rem;"></div>
+  <div class="city" style="background-image: url(../images/denverback.jpg);">
+    <h1 class="city" style="text-align: center; color: white; padding-top: 13%;">Denver, CO</h1>
+  </div>
+
+
   <footer>
     <p style="text-align: center; margin-top: 20px; font-size: 999;">Copyright &copy Asher Hamrick 2020</p>
   </footer>
