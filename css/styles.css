@@ -1,0 +1,92 @@
+body{
+	background: url(../images/sanfranback.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+footer{
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	height: 5%;
+	background-color: white;
+}
+
+.sidebar{
+  background-color: #383838;
+}
+
+.box{
+	background-color: #ba3822;
+	height: 6rem;
+}
+
+.greet{
+	margin-top: 13%;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	animation: fadein 2s;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.greetresp{
+	margin-top: 13%;
+	-webkit-animation: fadein 2s;
+	-moz-animation: fadein 2s;
+	-o-animation: fadein 2s;
+	-ms-animation: fadein 2s;
+	animation: fadein 2s;
+	font-family: 'Luckiest Guy', cursive;
+	display: none;
+}
+
+@media screen and (max-width: 600px){
+	.box{
+		display: none;
+	}
+	.greetresp{
+		display: block;
+	}
+	footer{
+		height: 8%
+	}
+}
+
+@keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {margin-top: 10%;}
+	to   {margin-top: 13%;}
+}
+
+@-moz-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {margin-top: 18%;}
+	to   {margin-top: 10%;}
+}
+
+@-webkit-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {margin-top: 8%;}
+	to   {margin-top: 10%;}
+}
+
+@-o-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {margin-top: 8%;}
+	to   {margin-top: 10%;}
+}
+
+@-ms-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {margin-top: 8%;}
+	to   {margin-top: 10%;}
+}
