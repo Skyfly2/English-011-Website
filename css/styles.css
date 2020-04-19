@@ -66,27 +66,27 @@ footer{
 @-moz-keyframes fadein{
 	from {opacity: 0;}
 	to   {opacity: 1;}
-	from {margin-top: 18%;}
-	to   {margin-top: 10%;}
+	from {margin-top: 10%;}
+	to   {margin-top: 13%;}
 }
 
 @-webkit-keyframes fadein{
 	from {opacity: 0;}
 	to   {opacity: 1;}
-	from {margin-top: 8%;}
-	to   {margin-top: 10%;}
+	from {margin-top: 10%;}
+	to   {margin-top: 13%;}
 }
 
 @-o-keyframes fadein{
 	from {opacity: 0;}
 	to   {opacity: 1;}
-	from {margin-top: 8%;}
-	to   {margin-top: 10%;}
+	from {margin-top: 10%;}
+	to   {margin-top: 13%;}
 }
 
 @-ms-keyframes fadein{
 	from {opacity: 0;}
 	to   {opacity: 1;}
-	from {margin-top: 8%;}
-	to   {margin-top: 10%;}
+	from {margin-top: 10%;}
+	to   {margin-top: 13%;}
 }
