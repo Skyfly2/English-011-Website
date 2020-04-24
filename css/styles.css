@@ -1,59 +1,168 @@
-body{
-	background: url(../images/sanfranback.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 
-footer{
-	bottom: 0;
-	position: absolute;
-	width: 100%;
-	height: 7%;
-	background-color: white;
-}
 
-.sidebar{
-  background-color: #383838;
-}
-
-.box{
-	background-color: #ba3822;
-	height: 6rem;
-}
-
-.greet{
-	margin-top: 13%;
-	-webkit-animation: fadein 2s;
-	-moz-animation: fadein 2s;
-	-o-animation: fadein 2s;
-	-ms-animation: fadein 2s;
-	animation: fadein 2s;
-	font-family: 'Luckiest Guy', cursive;
-}
-
-.greetresp{
-	margin-top: 13%;
-	-webkit-animation: fadein 2s;
-	-moz-animation: fadein 2s;
-	-o-animation: fadein 2s;
-	-ms-animation: fadein 2s;
-	animation: fadein 2s;
-	font-family: 'Luckiest Guy', cursive;
-	display: none;
+@media screen and (min-width: 1400px){
+	body{
+		background: url(../images/sanfranback.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	footer{
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		height: 5%;
+		background-color: white;
+	}
+	
+	.sidebar{
+	  background-color: #383838;
+	}
+	
+	.box{
+		background-color: #ba3822;
+		height: 6rem;
+	}
+	
+	.greet{
+		margin-top: 13%;
+		-webkit-animation: fadein 2s;
+		-moz-animation: fadein 2s;
+		-o-animation: fadein 2s;
+		-ms-animation: fadein 2s;
+		animation: fadein 2s;
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 10rem;
+	}
 }
 
 @media screen and (max-width: 1400px){
-	.box{
-		display: none;
+	body{
+		background: url(../images/sanfranback.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
-	.greetresp{
-		display: block;
+	
+	footer{
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		height: 3rem;
+		background-color: white;
+	}
+	
+	.sidebar{
+	  background-color: #383838;
+	}
+	
+	.box{
+		background-color: #ba3822;
+		height: 6rem;
+	}
+	
+	.greet{
+		margin-top: 13%;
+		-webkit-animation: fadein 2s;
+		-moz-animation: fadein 2s;
+		-o-animation: fadein 2s;
+		-ms-animation: fadein 2s;
+		animation: fadein 2s;
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 7rem;
 	}
 	footer{
 		height: 10%
 	}
+}
+
+@media screen and (max-width: 1100px){
+	body{
+		background: url(../images/sanfranback.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	footer{
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		height: 3rem;
+		background-color: white;
+	}
+	
+	.sidebar{
+	  background-color: #383838;
+	}
+	
+	.box{
+		background-color: #ba3822;
+		height: 6rem;
+	}
+	
+	.greet{
+		margin-top: 13%;
+		-webkit-animation: fadein 2s;
+		-moz-animation: fadein 2s;
+		-o-animation: fadein 2s;
+		-ms-animation: fadein 2s;
+		animation: fadein 2s;
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 5rem;
+	}
+	footer{
+		height: 10%
+	}
+}
+
+@media screen and (max-width: 830px){
+	body{
+		background: url(../images/sanfranback.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	
+	footer{
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		height: 3rem;
+		background-color: white;
+	}
+	
+	.sidebar{
+	  background-color: #383838;
+	}
+	
+	.box{
+		background-color: #ba3822;
+		height: 6rem;
+	}
+	
+	.greet{
+		margin-top: 13%;
+		-webkit-animation: fadein 2s;
+		-moz-animation: fadein 2s;
+		-o-animation: fadein 2s;
+		-ms-animation: fadein 2s;
+		animation: fadein 2s;
+		font-family: 'Luckiest Guy', cursive;
+		font-size: 4rem;
+	}
+	footer{
+		height: 10%;
+	}
+}
+
+@media screen and (min-width: 600px){
+
 }
 
 @keyframes fadein{
