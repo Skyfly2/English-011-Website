@@ -1,0 +1,149 @@
+.city:hover{
+	opacity: .2;
+	font-size: 50px;
+}
+@media screen and (min-width: 1400px){
+	.greet{
+		padding-top: 13%;
+		-webkit-animation: fadein 2s;
+		-moz-animation: fadein 2s;
+		-o-animation: fadein 2s;
+		-ms-animation: fadein 2s;
+		animation: fadein 2s;
+		font-family: 'Luckiest Guy', cursive;
+	}
+	.box{
+		background-color: white;
+		height: 6rem;
+		width: 100%;
+	}
+	footer{
+		bottom: 0;
+		position: relative;
+		width: 100%;
+		height: 7%;
+		background-color: white;
+	}
+	.ttext{
+		text-align: center; 
+		color: white; 
+		padding-top: 13%;
+	}
+	.city{
+		height: 28rem;
+		width: 100%;
+		opacity: 1;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		transition: opacity 500ms, font-size 200ms;
+		font-family: 'Luckiest Guy', cursive;
+	}
+}
+@media screen and (max-width: 1400px){
+	footer{
+		bottom: 0;
+		position: relative;
+		width: 100%;
+		height: 3rem;
+		background-color: white;
+	}
+	.greet{
+		padding-top: 13%;
+		-webkit-animation: fadein 1s;
+		-moz-animation: fadein 1s;
+		-o-animation: fadein 1s;
+		-ms-animation: fadein 1s;
+		animation: fadein 1s;
+		font-family: 'Luckiest Guy', cursive;
+	}
+	.box{
+		background-color: white;
+		height: 6rem;
+		width: 100%;
+	}
+	.ttext{
+		text-align: center; 
+		color: white; 
+		padding-top: 13%;
+	}
+	.building{
+		height: 20rem;
+		width: 50%;
+		opacity: 1;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		transition: opacity 500ms, font-size 500ms;
+		font-size: 0px;
+		font-family: 'Luckiest Guy', cursive;
+	}
+	.info{
+		text-align: center; 
+		color: white;
+	}
+	.content{
+		height: 20rem;
+		width: 50%;
+		font-size: 20px;
+		background-color: white;
+		border-width: 2px;
+		border-color: grey;
+		border-style: solid;
+	}
+}
+
+@media screen and (max-width: 600px){
+	footer{
+		height: 3rem;
+	}
+	.greetresp{
+		display: block;
+	}
+}
+
+@keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {padding-top: 11%;}
+	to   {padding-top: 13%;}
+}
+
+@-moz-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {padding-top: 11%;}
+	to   {padding-top: 13%;}
+}
+
+@-webkit-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {padding-top: 11%;}
+	to   {padding-top: 13%;}
+}
+
+@-o-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {padding-top: 11%;}
+	to   {padding-top: 13%;}
+}
+
+@-ms-keyframes fadein{
+	from {opacity: 0;}
+	to   {opacity: 1;}
+	from {padding-top: 11%;}
+	to   {padding-top: 13%;}
+}
+
+@keyframes transition{
+	from {opacity: 1;}
+	to   {opacity: .2;}
+}
