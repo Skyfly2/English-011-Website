@@ -94,7 +94,7 @@
 		bottom: 0;
 		position: relative;
 		width: 100%;
-		height: 6rem;
+		height: 4rem;
 		background-color: white;
 	}
 	.greet{
@@ -115,6 +115,7 @@
 		text-align: center; 
 		color: white; 
 		padding-top: 13%;
+		font-size: 5rem;
 	}
 	.city{
 		height: 28rem;
@@ -181,7 +182,7 @@
 		bottom: 0;
 		position: relative;
 		width: 100%;
-		height: 3rem;
+		height: 4rem;
 		background-color: white;
 	}
 	.greet{
