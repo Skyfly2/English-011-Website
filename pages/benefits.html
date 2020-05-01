@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="https://fonts.googleapis.com/css?family=Lato|Muli&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../css/benstyles.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -24,7 +24,7 @@
           <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="benefits.html">Benefits</a>
+          <a class="nav-link" href="#">Benefits</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="issues.html">Issues</a>
@@ -35,38 +35,50 @@
       </ul>
     </div>
   </nav>
-  <div class="row" style="width: 100%;">
-    <div class="building col-sm-6" id="austin" onmouseover="mouseon('atext', 'ahead', 'atitle')"
-      onmouseout="mouseoff('atext', 'ahead', 'atitle')" style="background-image: url(../images/austinback.jpg);">
-      <p class="ttext greet" style="font-size: 50px;" id="atitle">Austin, TX</p>
-      <p class="info" id="ahead">Austin
-      </p>
-      <p class="info" id="atext" style="opacity: 1;">
-        Austin is a pretty dope city!</p>
+  <div class="head" style="background-image: url('../images/austinback.jpg');">
+    <p class="headtext">Benefits</p>
+  </div>
+  <div class="contain px-5">
+    <div class="card">
+      <div class="card-body">
+        <h1>This is a card</h1>
+      </div>
     </div>
-    <div class="content col-sm-6">
-      <p>Hello, this is some content</p>
+    <div class="row">
+      
+      <div class="col-lg-5 first" data-toggle="modal" data-target="exampleModalLong" style="background-image: url(../images/austinback.jpg);" onmouseover="mouseover('three')" onmouseout="mouseoff('three')">
+        <p class="help" id="three">Click to view information</p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-5" style="background-image: url(../images/austinback.jpg);">
+      </div>
+      <div class="col-lg-5" style="background-image: url(../images/austinback.jpg);">
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-5" style="background-image: url(../images/austinback.jpg);">
+      </div>
     </div>
   </div>
-  <div class=" box" style="height: 3rem;">
+
+  <div class="modal fade" id="firstm" tabindex="-1" role="dialog" aria-labelledby="modaltitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modaltitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
-  <div class="building" id="boston" onmouseover="mouseon('btext', 'bhead', 'btitle')"
-    onmouseout="mouseoff('btext', 'bhead', 'btitle')" style="background-image: url(../images/bostonback.jpg);">
-    <p class="ttext greet" style="font-size: 50px;" id="btitle">Boston, MA</p>
-    <p class="info" id="bhead">Boston
-    </p>
-    <p class="info" id="btext">
-      Boston is a pretty dope city!</p>
-  </div>
-  <div class="box" style="height: 3rem;"></div>
-  <div class="building" id="denver" onmouseover="mouseon('dtext', 'dhead', 'dtitle')"
-    onmouseout="mouseoff('dtext', 'dhead', 'dtitle')" style="background-image: url(../images/denverback.jpg);">
-    <p class="ttext greet" style="font-size: 50px;" id="dtitle">Denver, CO</p>
-    <p class="info" id="dhead">Denver
-    </p>
-    <p class="info" id="dtext">
-      Denver is a pretty dope city!</p>
-  </div>
+</div>
 
 
 
@@ -76,7 +88,7 @@
 
 
 
-  <script src="js/scripts.js"></script>
+  
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -88,7 +100,21 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
-  <script src="../js/altscripts.js" type="text/javascript">
+  </script>
+  <script>
+    function mouseover(name){
+    document.getElementById(name).style.display = 'block';
+    }
+    function mouseoff(name){
+    document.getElementById(name).style.display = 'none';
+    }
+
+    var $modal = $('#firstm').modal({
+    show: false
+    });
+    $('.first').on('click', function() {
+    $modal.modal('show');
+    });
   </script>
 </body>
 
