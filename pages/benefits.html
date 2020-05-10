@@ -41,7 +41,7 @@
       </ul>
     </div>
   </nav>
-  <div class="head" style="background-image: url('../images/austinback.jpg');">
+  <div class="head" style="background-image: url('../images/techback.jpg');">
     <p class="headtext">Benefits</p>
   </div>
   <div class="contain px-5">
@@ -54,18 +54,18 @@
       <div class="col-lg-12">
         <p class="mobiletip" style="text-align: center;">Click below cards to view information</p>
       </div>
-      <div class="col-lg-5 first" data-toggle="modal" style="background-image: url(../images/austinback.jpg);" onmouseover="mouseover('fir')" onmouseout="mouseoff('fir')">
+      <div class="col-lg-5 first" data-toggle="modal" style="background-image: url(../images/applepark.jpg);" onmouseover="mouseover('fir')" onmouseout="mouseoff('fir')">
         <p class="help" id="fir">Click to view information</p>
       </div>
       <div class="col-lg-2"></div>
-      <div class="col-lg-5 second" data-toggle="modal" style="background-image: url(../images/austinback.jpg);" onmouseover="mouseover('sec')" onmouseout="mouseoff('sec')">
+      <div class="col-lg-5 second" data-toggle="modal" style="background-image: url(../images/transamerica.jpg);" onmouseover="mouseover('sec')" onmouseout="mouseoff('sec')">
         <p class="help" id="sec">Click to view information</p>
       </div>
-      <div class="col-lg-5 third" data-toggle="modal" style="background-image: url(../images/austinback.jpg);" onmouseover="mouseover('thir')" onmouseout="mouseoff('thir')">
+      <div class="col-lg-5 third" data-toggle="modal" style="background-image: url(../images/div.jpg);" onmouseover="mouseover('thir')" onmouseout="mouseoff('thir')">
         <p class="help" id="thir">Click to view information</p>
       </div>
       <div class="col-lg-2"></div>
-      <div class="col-lg-5 fourth" data-toggle="modal" style="background-image: url(../images/austinback.jpg);" onmouseover="mouseover('four')" onmouseout="mouseoff('four')">
+      <div class="col-lg-5 fourth" data-toggle="modal" style="background-image: url(../images/goldengate.jpg);" onmouseover="mouseover('four')" onmouseout="mouseoff('four')">
         <p class="help" id="four">Click to view information</p>
       </div>
     </div>
@@ -75,7 +75,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modaltitle">Modal title</h5>
+        <h5 class="modal-title" id="modaltitle">Home of the Tech Giants</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -84,12 +84,65 @@
         ...
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        Image: "Apple Park", the headquarters of Apple Inc. located in Cupertino, CA
       </div>
     </div>
   </div>
 </div>
+
+  <div class="modal fade" id="secondm" tabindex="-1" role="dialog" aria-labelledby="second" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modaltitle">A Thriving Start-up Scene</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          Image: Transamerica Pyramid in the San Francisco Business district, a district home to countless start-ups
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="thirdm" tabindex="-1" role="dialog" aria-labelledby="modaltitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modaltitle">Diversity</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="fourthm" tabindex="-1" role="dialog" aria-labelledby="modaltitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modaltitle">Countless Attractions and Activites</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          Image: The Golden Gate Bridge, a bridge connecting San Francisco county and Marin county in California
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
@@ -120,11 +173,32 @@
     document.getElementById(name).style.display = 'none';
     }
 
-    var $modal = $('#firstm').modal({
+    var $m1 = $('#firstm').modal({
     show: false
     });
     $('.first').on('click', function() {
-    $modal.modal('show');
+    $m1.modal('show');
+    });
+
+    var $m2 = $('#secondm').modal({
+    show: false
+    });
+    $('.second').on('click', function() {
+    $m2.modal('show');
+    });
+
+    var $m3 = $('#thirdm').modal({
+    show: false
+    });
+    $('.third').on('click', function() {
+    $m3.modal('show');
+    });
+
+    var $m4 = $('#fourthm').modal({
+    show: false
+    });
+    $('.fourth').on('click', function() {
+    $m4.modal('show');
     });
   </script>
 </body>
