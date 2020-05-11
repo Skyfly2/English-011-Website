@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Lato|Muli&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/benstyles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+<head>
+  <title>Asher Hamrick</title>
+</head>
+
+<body class="body">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="benefits.html">Benefits</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Issues</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="alternatives.html">Alternatives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="workscited.html">Works Cited</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="head" style="background-image: url('../images/redtechback.png');">
+    <p class="headtext">Issues</p>
+  </div>
+  <div class="contain px-5">
+    <div class="card">
+      <div class="card-body">
+        <p>As with anything, the thriving tech industry has caused numerous issues and inflated preexisting issues of the bay area to a point that is pushing lower and middle class families out. Let's take a look at why. Click the cards below to view information.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="mobiletip" style="text-align: center;">Click below cards to view information</p>
+      </div>
+      <div class="col-lg-5 first" data-toggle="modal" style="background-image: url(../images/housing.jpg);" onmouseover="mouseover('fir')" onmouseout="mouseoff('fir')">
+        <p class="help" id="fir">Click to view information</p>
+      </div>
+      <div class="col-lg-2"></div>
+      <div class="col-lg-5 second" data-toggle="modal" style="background-image: url(../images/money.jpg);" onmouseover="mouseover('sec')" onmouseout="mouseoff('sec')">
+        <p class="help" id="sec">Click to view information</p>
+      </div>
+      <div class="col-lg-5 third" data-toggle="modal" style="background-image: url(../images/bill.jpg);" onmouseover="mouseover('thir')" onmouseout="mouseoff('thir')">
+        <p class="help" id="thir">Click to view information</p>
+      </div>
+      <div class="col-lg-2"></div>
+      <a class="col-lg-5" href="alternatives.html" style="background-image: url(../images/alternate.jpg);" onmouseover="mouseover('four')" onmouseout="mouseoff('four')">
+        <p class="help" id="four">Click to view information</p>
+      </a>
+    </div>
+  </div>
+
+  <div class="modal fade" id="firstm" tabindex="-1" role="dialog" aria-labelledby="modaltitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modaltitle">Immense Housing Problems</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        Image: 
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="modal fade" id="secondm" tabindex="-1" role="dialog" aria-labelledby="second" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modaltitle">Laws</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="thirdm" tabindex="-1" role="dialog" aria-labelledby="modaltitle" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modaltitle">Diversity</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p style="text-align: center; margin-top: 20px; font-size: 999;">Copyright &copy Asher Hamrick 2020</p>
+  </footer>
+
+
+
+  <script src="js/scripts.js"></script>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <script>
+      function mouseover(name){
+      document.getElementById(name).style.display = 'block';
+      }
+      function mouseoff(name){
+      document.getElementById(name).style.display = 'none';
+      }
+  
+      var $m1 = $('#firstm').modal({
+      show: false
+      });
+      $('.first').on('click', function() {
+      $m1.modal('show');
+      });
+  
+      var $m2 = $('#secondm').modal({
+      show: false
+      });
+      $('.second').on('click', function() {
+      $m2.modal('show');
+      });
+  
+      var $m3 = $('#thirdm').modal({
+      show: false
+      });
+      $('.third').on('click', function() {
+      $m3.modal('show');
+      });
+    </script>
+</body>
+
+</html>
