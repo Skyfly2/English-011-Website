@@ -1,6 +1,5 @@
-.city:hover{
-	opacity: .5;
-	font-size: 50px;
+nav{
+    font-family: 'Ubuntu', sans-serif;
 }
 @media screen and (min-width: 1400px){
 	.greet{
@@ -47,6 +46,10 @@
 	.info{
 		text-align: center; 
 		color: white;
+	}
+	.city:hover{
+		opacity: .5;
+		font-size: 2rem;
 	}
 
 	@keyframes fadein{
@@ -96,6 +99,10 @@
 		width: 100%;
 		height: 4rem;
 		background-color: white;
+	}
+	.city:hover{
+		opacity: .5;
+		font-size: 2rem;
 	}
 	.greet{
 		padding-top: 13%;
@@ -184,6 +191,10 @@
 		width: 100%;
 		height: 4rem;
 		background-color: white;
+	}
+	.city:hover{
+		opacity: .5;
+		font-size: 1rem;
 	}
 	.greet{
 		padding-top: 13%;
