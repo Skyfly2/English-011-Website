@@ -11,6 +11,23 @@ nav{
 		animation: fadein 2s;
 		font-family: 'Luckiest Guy', cursive;
 	}
+	.head{
+		height: 22rem;
+		width: 100%;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.headtext{
+		text-align: center;
+		font-size: 5rem;
+		color: white;
+		font-family: 'Luckiest Guy', cursive;
+		padding-top: 7rem;
+	}
 	.box{
 		background-color: white;
 		height: 6rem;
@@ -102,7 +119,24 @@ nav{
 	}
 	.city:hover{
 		opacity: .5;
-		font-size: 2rem;
+		font-size: 1.5rem;
+	}
+	.head{
+		height: 22rem;
+		width: 100%;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.headtext{
+		text-align: center;
+		font-size: 5rem;
+		color: white;
+		font-family: 'Luckiest Guy', cursive;
+		padding-top: 7rem;
 	}
 	.greet{
 		padding-top: 13%;
@@ -125,7 +159,7 @@ nav{
 		font-size: 5rem;
 	}
 	.city{
-		height: 28rem;
+		height: 33rem;
 		width: 100%;
 		opacity: 1;
 		background-size: cover;
@@ -195,6 +229,23 @@ nav{
 	.city:hover{
 		opacity: .5;
 		font-size: 1rem;
+	}
+	.head{
+		height: 12rem;
+		width: 100%;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.headtext{
+		text-align: center;
+		font-size: 3rem;
+		color: white;
+		font-family: 'Luckiest Guy', cursive;
+		padding-top: 7rem;
 	}
 	.greet{
 		padding-top: 13%;
