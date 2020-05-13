@@ -6,6 +6,10 @@
 nav{
     font-family: 'Ubuntu', sans-serif;
 }
+.hang{
+	padding-left: 20px;
+	text-indent: -20px;
+}
 @media screen and (min-width: 2300px){
 	footer{
 		bottom: 0;
@@ -455,7 +459,7 @@ nav{
 	}
 	.headtext{
 		text-align: center;
-		font-size: 5rem;
+		font-size: 3.3rem;
 		color: white;
 		font-family: 'Luckiest Guy', cursive;
 		padding-top: 2rem;
